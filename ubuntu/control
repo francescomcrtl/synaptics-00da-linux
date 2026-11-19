@@ -1,0 +1,11 @@
+Package: synaptics-00da-local
+Version: 0.1~local1
+Architecture: amd64
+Section: admin
+Priority: optional
+Maintainer: Local build <local@localhost>
+Depends: fprintd, libfprint-2-tod1 (>= 1:1.95.1+tod1), libglib2.0-0t64, libgusb2a, libjson-glib-1.0-0, libcap2, libseccomp2, libssl3t64, libusb-1.0-0, libc6
+Description: Experimental local Synaptics 06cb:00da fingerprint driver
+ synaTudor host and libfprint TOD module built for the 06cb:00da sensor.
+ This local test package contains no maintainer scripts and does not edit
+ PAM configuration. It is not intended for redistribution.
