@@ -12,6 +12,8 @@ Linux support for the **Synaptics 06cb:00da** fingerprint reader (ThinkPad E15 G
 
 ## Tested hardware
 
+For **Ubuntu 26.04 on ThinkPad E14 Gen 2**, see the separate [Ubuntu build, test results and removal instructions](ubuntu/README.md).
+
 | Field | Value |
 |-------|-------|
 | USB ID | `06cb:00da` |
